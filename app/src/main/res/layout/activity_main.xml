@@ -1,0 +1,66 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.suleman.gate.MainActivity">
+
+
+    <Button
+        android:id="@+id/btnop3"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="37dp"
+        android:text="Button"
+        android:layout_above="@+id/btnop4"
+        android:layout_alignParentStart="true" />
+
+    <Button
+        android:id="@+id/btnop4"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="22dp"
+        android:text="Button"
+        android:layout_alignParentBottom="true"
+        android:layout_alignParentStart="true" />
+
+    <Button
+        android:id="@+id/btnop2"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_above="@+id/btnop3"
+        android:layout_alignEnd="@+id/btnop4"
+        android:layout_marginBottom="34dp"
+        android:text="Button" />
+
+    <Button
+        android:id="@+id/btnop1"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_above="@+id/btnop2"
+        android:layout_alignStart="@+id/btnop3"
+        android:layout_marginBottom="29dp"
+        android:text="Button" />
+
+    <TextView
+        android:id="@+id/tvqn"
+        android:textSize="25sp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="66dp"
+        android:text="Question" />
+
+    <TextView
+        android:id="@+id/tvscore"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentTop="true"
+        android:text=""
+        android:textAlignment="center"
+        android:textSize="20sp" />
+
+</RelativeLayout>
